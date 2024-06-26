@@ -7,8 +7,10 @@ body {
   background-color: var(--bg-color);
   font-family: Arial, sans-serif;
   transition: background-color 0.3s;
-  user-select: none; /* Disable text selection */
+  user-select: none;
+  /* Disable text selection */
 }
+
 .card {
   background-color: var(--card-bg-color);
   color: var(--text-color);
@@ -22,47 +24,59 @@ body {
   transform: translateY(0);
   animation: slideIn 0.5s ease-out;
 }
+
 @keyframes slideIn {
   from {
     transform: translateY(-30px);
     opacity: 0;
   }
+
   to {
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 .card img {
   border-radius: 50%;
   width: 150px;
   height: 150px;
   margin-bottom: 10px;
 }
+
 .card h2 {
   margin: 10px 0;
-  color: var(--text-color); /* Ensure h2 uses text-color */
+  color: var(--text-color);
+  /* Ensure h2 uses text-color */
 }
+
 .card p {
   font-size: 14px;
   margin: 10px 0 20px;
-  color: var(--quote-color); /* Ensure p uses quote-color */
+  color: var(--quote-color);
+  /* Ensure p uses quote-color */
 }
+
 .social-icons {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
+
 .social-icons a {
   color: var(--icon-color);
   margin: 0 10px;
   text-decoration: none;
-  font-size: 30px; /* Increase icon size */
+  font-size: 30px;
+  /* Increase icon size */
   transition: color 0.3s, transform 0.3s;
 }
+
 .social-icons a:hover {
   color: var(--icon-hover-color);
   transform: scale(1.1);
 }
+
 .toggle-theme {
   cursor: pointer;
   font-size: 24px;
@@ -72,6 +86,7 @@ body {
   color: var(--icon-color);
   transition: color 0.3s;
 }
+
 .toggle-theme:hover {
   color: var(--icon-hover-color);
 }
