@@ -1,7 +1,6 @@
 const toggleButton = document.getElementById("theme-toggle");
 const body = document.body;
 
-// Check the stored theme preference on page load
 if (localStorage.getItem("theme") === "dark") {
   body.classList.add("dark-mode");
   toggleButton.querySelector("i").classList.remove("fa-moon");
@@ -22,7 +21,6 @@ toggleButton.addEventListener("click", () => {
   }
 });
 
-// Disable right-click, view source, inspect element, copy, text selection, and Ctrl + A
 document.addEventListener("contextmenu", (event) => event.preventDefault());
 document.addEventListener("keydown", (event) => {
   if (
