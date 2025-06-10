@@ -8,7 +8,6 @@ body {
   font-family: Arial, sans-serif;
   transition: background-color 0.3s;
   user-select: none;
-  /* Disable text selection */
 }
 
 .card {
@@ -47,14 +46,12 @@ body {
 .card h2 {
   margin: 10px 0;
   color: var(--text-color);
-  /* Ensure h2 uses text-color */
 }
 
 .card p {
   font-size: 14px;
   margin: 10px 0 20px;
   color: var(--quote-color);
-  /* Ensure p uses quote-color */
 }
 
 .social-icons {
@@ -68,7 +65,6 @@ body {
   margin: 0 10px;
   text-decoration: none;
   font-size: 30px;
-  /* Increase icon size */
   transition: color 0.3s, transform 0.3s;
 }
 
@@ -91,17 +87,15 @@ body {
   color: var(--icon-hover-color);
 }
 
-/* Light Theme */
 :root {
   --bg-color: #e7e5e5;
   --card-bg-color: #ffffff;
-  --text-color: #1c1c1c;
+  --text-color: #2b2b2b;
   --quote-color: #666666;
-  --icon-color: #1c1c1c;
+  --icon-color: #2b2b2b;
   --icon-hover-color: #638d8b;
 }
 
-/* Dark Theme */
 .dark-mode {
   --bg-color: #2b2b2b;
   --card-bg-color: #1c1c1c;
