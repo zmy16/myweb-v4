@@ -109,17 +109,3 @@ body {
   --icon-color: #e7e5e5;
   --icon-hover-color: #638d8b;
 }
-
-@font-face {
-  font-family: 'YourFont';
-  src: url('assets/fonts/yourfont.woff2') format('woff2');
-  font-display: swap;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
-h2 {
-  font-family: 'YourFont', sans-serif;
-}
